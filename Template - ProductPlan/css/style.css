@@ -1,0 +1,63 @@
+*{margin: 0; padding: 0; font-family: Arial, Tahoma}
+
+body{background: #EEE}
+
+.parent{position: relative}
+
+.parent h1{text-align: center; margin-bottom: 20px; padding-top: 20px}
+
+.parent li{height: 7px; width: 25px}
+
+.parent ul{display: inline-block; list-style: none; margin-right: -8px}
+
+.parent .logo-blue{background: blue; margin-left: 5px; margin-bottom: 1px}
+
+.parent .logo-orange{background: orange; margin-bottom: 1px}
+
+.parent .logo-red{background: red; margin-left: 5px}
+
+.child
+{
+  background: #FFF;
+  margin: 0 auto;
+  width: 1000px;
+  position: relative;
+  padding: 40px 30px 20px;
+}
+
+.child span
+{
+	display: inline-block;
+	width: 33.33333%;
+	height: 3px;
+	position: absolute
+}
+
+.child .top-blue{background: blue; top: 0; left: 0}
+.child .top-orange{background: orange; top: 0; left: 33.3333%}
+.child .top-red{background: red; top: 0; right: 0}
+.child .bottom-blue{background: blue; bottom: 0; left: 0}
+.child .bottom-orange{background: orange; bottom: 0; left: 33.3333%}
+.child .bottom-red{background: red; bottom: 0; right: 0}
+
+.child p{padding: 15px 0; line-height: 1.7; font-size: 20px}
+
+.child button
+{
+	background: blue;
+	color: #FFF;
+	padding: 15px 10px;
+	margin: 20px auto;
+	border: 0;
+	display: block;
+	width: 30%;
+	font-size: 22px
+}
+
+.child button:hover{cursor: pointer}
+
+.parent .last{text-align: center; color: #AAA; padding-top: 20px}
+
+.parent .last span{text-decoration: underline}
+
+.parent .last span:hover{cursor: pointer}

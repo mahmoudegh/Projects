@@ -1,0 +1,35 @@
+*{margin: 0; padding: 0; font-family: Arial, Tahoma}
+.container{width: 978px; margin: auto}
+.header{background-color: #3B5998; overflow: hidden}
+.header h1{color: #FFF; float: left;padding-top: 20px; font-size: 40px}
+.header .email{float: left; margin-left: 400px}
+.header .email label{color: #FFF; display: block;padding-top: 15px;padding-bottom: 5px;font-size: 12px}
+.header .email input{padding: 3px; border: 1px solid #000;width: 150px }
+.header .password{float: left;margin-left: 15px}
+.header .password input{padding: 3px; border: 1px solid #000;width: 150px  }
+.header .password label{color: #FFF; display: block;padding-top: 15px;padding-bottom: 5px;font-size: 12px}
+.header .password a{display: block;text-decoration: none;color: #9CB4D8; padding: 5px;font-size: 12px}
+.header .password a:hover{text-decoration: underline}
+.header button
+{   
+    margin-top: 34px;
+    background-color: #3a61ad;
+    color: #FFF; margin-left: 15px;
+    border: 1px solid #555;
+    padding: 4px 5px;
+    cursor:pointer;
+    font-size: 12px
+}
+
+.content{background-color: #E9EBEE}
+.content .creat{margin-left: 540px}
+.content .creat h1{padding: 20px 0 10px;color: #333; font-size: 36px}
+.content .creat p{font-size: 18px; line-height: 1.7}    
+.content .creat input{ padding: 5px;margin-top: 5px; margin-bottom: 5px;border-radius: 5px;border: 1px solid #000}
+.content .creat input[type="text"]{width:46%}
+.content .creat input[type="email"],
+.content .creat input[type="password"]{width: 96%}
+.content .creat select{height: 30px;margin-top: 10px; margin-bottom: 10px}
+.content .creat input[type="radio"]{margin-top: 10px; margin-bottom:10px}
+.content .creat button{background-color: #669F52;padding: 10px 50px;color: #FFF;border-radius: 5px;border: 1px solid #888;margin-top: 10px;margin-bottom: 10px;font-size: 18px}
+
